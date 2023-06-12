@@ -1,4 +1,4 @@
-#include"Frazione.h"
+п»ї#include"Frazione.h"
 #include<iostream>
 
 Frazione::Frazione() {
@@ -8,8 +8,8 @@ Frazione::Frazione() {
 Frazione::Frazione(double numer,double denom):_numeratore(numer),_denominatore(denom){}
 Frazione::~Frazione() {}
 void Frazione::MostraFra() {
-	std::cout << "Числитель : " << _numeratore << '\n';
-	std::cout << "Знаменатель : " << _denominatore << '\n';
+	std::cout << "Р§РёСЃР»РёС‚РµР»СЊ : " << _numeratore << '\n';
+	std::cout << "Р—РЅР°РјРµРЅР°С‚РµР»СЊ : " << _denominatore << '\n';
 }
 void Frazione::GetNumar(double numer) {
 	_numeratore = numer;
@@ -36,7 +36,7 @@ double Frazione::operator/(Frazione& fra) {
 	return this->SetFrazione() * fra.SetFrazione();
 }
 std::string Frazione::operator+(std::string lettera) {
-	return "не надо так делать";
+	return "РЅРµ РЅР°РґРѕ С‚Р°Рє РґРµР»Р°С‚СЊ";
 }
 int Frazione::operator-(int x) {
 	return (1000 - x);

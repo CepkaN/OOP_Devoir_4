@@ -1,9 +1,9 @@
-#include"Frazione.h"
+п»ї#include"Frazione.h"
 #include"Complex.h"
 
 int main() {
 	setlocale(LC_ALL, "Russian");
-	// Задача 1.
+	// Р—Р°РґР°С‡Р° 1.
 	Frazione frazione1(32, 5);
 	Frazione frazione2(22, 10);
 	Frazione frazione3;
@@ -17,7 +17,7 @@ int main() {
 	std::cout << frazione3 + "stroka" << '\n';
 	std::cout << frazione3 - 777 << '\n';
 
-	// Задача 2.
+	// Р—Р°РґР°С‡Р° 2.
 	std::cout << "\n\n";
 	Complex complex1(7, 6);
 	Complex complex2(2, 3);
